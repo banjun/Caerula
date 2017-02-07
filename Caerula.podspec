@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'Caerula'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Caerula.'
-  s.description      = 'A long description of Caerula.'
+  s.summary          = 'Beacon radar view for UIKit'
+  s.description      = 'Scan iBeacon accessories and visualize in a view with UIKit dynamics animation.'
   s.homepage         = 'https://github.com/banjun/Caerula'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'banjun' => 'banjun@gmail.com' }
