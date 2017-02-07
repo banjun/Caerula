@@ -90,9 +90,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Caerula/Caerula.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NorthLayout/NorthLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/※ikemen/Ikemen.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Caerula/Caerula.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/NorthLayout/NorthLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/※ikemen/Ikemen.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

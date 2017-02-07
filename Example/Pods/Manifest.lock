@@ -1,8 +1,12 @@
 PODS:
   - Caerula (0.1.0)
+  - NorthLayout (3.0.0)
+  - "※ikemen (0.2.0)"
 
 DEPENDENCIES:
   - Caerula (from `../`)
+  - NorthLayout
+  - "※ikemen"
 
 EXTERNAL SOURCES:
   Caerula:
@@ -10,7 +14,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Caerula: 213261e0b248442c187ac05a5e0f85894ab04ebe
+  NorthLayout: 28db8bfa49b861b4e972cc8e7c683c8ba819ff88
+  "※ikemen": c04aecee4293a2b6deb2119f7e67e7a82c6dea06
 
-PODFILE CHECKSUM: 9a4617a627a5de6b8202016252756deb5b87f6ef
+PODFILE CHECKSUM: fe89044676afe96a87b7d568a81fb9889447b6fc
 
 COCOAPODS: 1.2.0

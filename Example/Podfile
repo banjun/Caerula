@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'Caerula_Example' do
   pod 'Caerula', :path => '../'
+  pod 'NorthLayout'
+  pod '※ikemen'
 
   target 'Caerula_Tests' do
     inherit! :search_paths
