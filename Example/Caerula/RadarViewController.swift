@@ -8,6 +8,13 @@ class RadarViewController: UIViewController {
     init(uuids: [UUID]) {
         self.radarView = BeaconRadarView(uuids: uuids)
         super.init(nibName: nil, bundle: nil)
+        self.radarView.displayNameForBeacon = { b in
+            switch b.minor {
+            case 1: return "🍎Apple"
+            case 20: return "🍓Strawberry"
+            default: return "🔹Other"
+            }
+        }
     }
 
     required init?(coder aDecoder: NSCoder) {
