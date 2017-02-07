@@ -1,6 +1,0 @@
-framework module Caerula {
-  umbrella header "Caerula-umbrella.h"
-
-  export *
-  module * { export * }
-}
