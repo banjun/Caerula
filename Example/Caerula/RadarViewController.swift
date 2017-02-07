@@ -15,6 +15,18 @@ class RadarViewController: UIViewController {
             default: return "🔹Other"
             }
         }
+        self.radarView.didDetectBeacon = { b in
+            NSLog("%@", "found beacon (\(b.major), \(b.minor))")
+            if #available(iOS 10.0, *) {
+                UINotificationFeedbackGenerator().notificationOccurred(.success)
+            }
+        }
+        self.radarView.didChangeBeaconRange = { b in
+            NSLog("%@", "changed beacon range: \(b.proximity.rawValue)")
+            if #available(iOS 10.0, *) {
+                UIImpactFeedbackGenerator(style: .light).impactOccurred()
+            }
+        }
     }
 
     required init?(coder aDecoder: NSCoder) {

@@ -20,6 +20,12 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
     public var displayNameForBeacon: (CLBeacon) -> String? = {_ in nil}
     public let defaultDisplayNameForBeacon: (CLBeacon) -> String = {b in "🔹(\(b.major), \(b.minor))"}
 
+    /// callback when a new beacon detected
+    public var didDetectBeacon: ((CLBeacon) -> Void)?
+
+    /// callback when a beacon proximity changed
+    public var didChangeBeaconRange: ((CLBeacon) -> Void)?
+
     public struct ScannedBeacon {
         var lastFound: Date
         var beacon: CLBeacon
@@ -87,10 +93,14 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
 
         beacons.forEach { b in
             if let i = (visibleBeacons.index {$0.beacon.proximityUUID == b.proximityUUID && $0.beacon.major == b.major && $0.beacon.minor == b.minor}) {
+                if visibleBeacons[i].beacon.proximity != b.proximity {
+                    didChangeBeaconRange?(b)
+                }
                 visibleBeacons[i].lastFound = now
                 visibleBeacons[i].beacon = b
             } else {
                 visibleBeacons.append(ScannedBeacon(lastFound: now, beacon: b))
+                didDetectBeacon?(b)
             }
         }
         visibleBeacons = visibleBeacons.filter {now.timeIntervalSince($0.lastFound) < beaconTimeout}.sorted {$0.lastFound < $1.lastFound}
