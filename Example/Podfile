@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Caerula_Example' do
+  pod 'Caerula', :path => '../'
+
+  target 'Caerula_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

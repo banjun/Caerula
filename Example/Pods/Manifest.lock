@@ -1,0 +1,16 @@
+PODS:
+  - Caerula (0.1.0)
+
+DEPENDENCIES:
+  - Caerula (from `../`)
+
+EXTERNAL SOURCES:
+  Caerula:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Caerula: 213261e0b248442c187ac05a5e0f85894ab04ebe
+
+PODFILE CHECKSUM: 9a4617a627a5de6b8202016252756deb5b87f6ef
+
+COCOAPODS: 1.2.0
