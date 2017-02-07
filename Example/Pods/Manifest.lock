@@ -1,5 +1,7 @@
 PODS:
-  - Caerula (0.1.0)
+  - Caerula (0.1.0):
+    - NorthLayout
+    - "※ikemen"
   - NorthLayout (3.0.0)
   - "※ikemen (0.2.0)"
 
@@ -13,10 +15,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Caerula: 213261e0b248442c187ac05a5e0f85894ab04ebe
+  Caerula: 96285868bed353f7ba383fee560150b3ad087dd7
   NorthLayout: 28db8bfa49b861b4e972cc8e7c683c8ba819ff88
   "※ikemen": c04aecee4293a2b6deb2119f7e67e7a82c6dea06
 
-PODFILE CHECKSUM: fe89044676afe96a87b7d568a81fb9889447b6fc
+PODFILE CHECKSUM: afb0af5e713d3d251205add845b27f9a69d1a583
 
 COCOAPODS: 1.2.0

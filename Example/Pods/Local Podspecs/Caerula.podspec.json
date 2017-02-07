@@ -23,5 +23,13 @@
   "frameworks": [
     "UIKit",
     "CoreLocation"
-  ]
+  ],
+  "dependencies": {
+    "NorthLayout": [
+
+    ],
+    "※ikemen": [
+
+    ]
+  }
 }

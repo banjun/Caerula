@@ -8,48 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		05ED3A32A04E0268E9B16F49EF1A3DD0 /* Pods-Caerula_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC510868A15A0D4DD29654DB1075BF7 /* Pods-Caerula_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		098D633A44D70422F822ECCFD05DDA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
-		18AA18DF884C308F0C91FCACB4807782 /* ※ikemen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D177DCECB3B5C4795FDDCFD0B3E64FC3 /* ※ikemen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F5043010E9FD3D5086C8128A5205043 /* Caerula-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B09F0D9DBB492D6F5EB540B7DFFAD7 /* Caerula-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C54B3DB6EE394A0B3BF232801EF102D /* ※ikemen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617F14D07EBCC4A1244248D232F3B81 /* ※ikemen.swift */; };
+		1A58C3142F2D64ACF6E63D64BFD52568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */; };
+		1E487FA9D56673FD1DA780AB4CF77D50 /* NorthLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1203C0DA05299CA9BF78911DB3FDC5F8 /* NorthLayout.framework */; };
+		36BAB2E47B85A0590063929B76B7AA33 /* ※ikemen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D177DCECB3B5C4795FDDCFD0B3E64FC3 /* ※ikemen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3989715426F82AD1795B0C514A8CBA9A /* NorthLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F72D871F198723311E0B1E791F0893 /* NorthLayout-dummy.m */; };
+		48117AEEADB1EF6E078DF63AAF42C6EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9132D8DD2DEC8DE55C72EA98EF7F022D /* UIKit.framework */; };
+		51802F0105F18F272984CF5AB061FC14 /* BeaconRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85E305142E66DE20782DF8F5AB0B68 /* BeaconRadarView.swift */; };
+		5583764AD5CF1CE7452F796EE4D8720F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */; };
 		5D5B96C45AAC4CF11DD12E709C2F4A01 /* Pods-Caerula_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CB9E78E0E7471120BA9F390A07A75E /* Pods-Caerula_Example-dummy.m */; };
-		5FCC076799F2C720DE3B089993AF9641 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638FC09FB4335669CAE4B13A2EB84320 /* UIKit.framework */; };
-		60DE2DB0FC7E5FFDAA6DFA999E0D22C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638FC09FB4335669CAE4B13A2EB84320 /* UIKit.framework */; };
-		63794B7690D5C9A75D910BF544AE90C2 /* NorthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBF8BD5B0862DC961F29BB41DDBDFF /* NorthLayout.swift */; };
-		660097D57CB7331D6D0591AF643858DE /* NorthLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F72D871F198723311E0B1E791F0893 /* NorthLayout-dummy.m */; };
-		6DD4A500AD804B020FA09E35361BE0C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
-		8D966E05DD57B9238DDC391817CBA348 /* Caerula-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C31A75D580053A5135EBBE98FF83E6 /* Caerula-dummy.m */; };
+		5FE215F14C9193905613A41001CCF87D /* ※ikemen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617F14D07EBCC4A1244248D232F3B81 /* ※ikemen.swift */; };
+		6DD4A500AD804B020FA09E35361BE0C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */; };
+		8F7CB3A43D5B29D2BB3E82429D3C58B8 /* ※ikemen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B977F00885FA753155F0C95AA7163 /* ※ikemen-dummy.m */; };
 		93321DDB1BF4FA6BCAF7381B183FB21B /* Pods-Caerula_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EE41CE8EA015249E0BE7AD6EB0C0AC /* Pods-Caerula_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96DD723078A4B01B3CADEF4D28C64628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
+		96DD723078A4B01B3CADEF4D28C64628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */; };
 		9FD487211E298A01CD3D68DA1979751E /* Pods-Caerula_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CF9A45F1CDC8491A64165BB159FC34 /* Pods-Caerula_Tests-dummy.m */; };
-		AC45AA5C47B83626ECD356E078ADB2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
-		D115538951D87DEE949BAEBED6BF2CA3 /* BeaconRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85E305142E66DE20782DF8F5AB0B68 /* BeaconRadarView.swift */; };
-		D44E6874FEA5973A20539093A201B500 /* NorthLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0376E8A610FD1A070C662A610134E40 /* NorthLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D599FCEA42B5D9A9483182810552B545 /* ※ikemen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9B977F00885FA753155F0C95AA7163 /* ※ikemen-dummy.m */; };
-		F613DC418F973A4E123491FF368404D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4197870F25D718921A9424035DAEC588 /* CoreLocation.framework */; };
-		F8E22F04CD21F36B1B03F040451A81FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
+		A229C4A304FEDF765CBA34F163993530 /* Caerula-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B09F0D9DBB492D6F5EB540B7DFFAD7 /* Caerula-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8B49D90B1A4E05C2AC02D5B32C898E /* Caerula-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C31A75D580053A5135EBBE98FF83E6 /* Caerula-dummy.m */; };
+		B45893C6814A04334F25D119DE7A3464 /* Ikemen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DD7015A9ECB55DB06A72550EA352E8 /* Ikemen.framework */; };
+		E9F352FCDEFAD9BC7B600E9512EA21E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF05CD114E9F930198A8DC94629EA42 /* CoreLocation.framework */; };
+		EE4A61078BE04902CE4D271BA71D5D73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9132D8DD2DEC8DE55C72EA98EF7F022D /* UIKit.framework */; };
+		F143202FF5B7AE59E33717DEF4276D1B /* NorthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBF8BD5B0862DC961F29BB41DDBDFF /* NorthLayout.swift */; };
+		F6C24BB4653862132E5D2360E8A6504A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */; };
+		F99D5A8121C9340349A8AE948E7D6087 /* NorthLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0376E8A610FD1A070C662A610134E40 /* NorthLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2A62F5C5CC07199A6DB645ABC7EEE0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0068F464AF5A370BEFF6A4345585E4;
+			remoteInfo = NorthLayout;
+		};
+		692FF841881CE61C9B1D2CFBE729DD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F4B5B9E21256F8B6CC043D9455EAF0;
+			remoteInfo = "※ikemen";
+		};
 		8176DDB70A61C631EE6B50C694900812 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F9380E86101CF375F0BA05340834A6B;
+			remoteGlobalIDString = E4F4B5B9E21256F8B6CC043D9455EAF0;
 			remoteInfo = "※ikemen";
 		};
 		D2AEB5BA8561EFD0E22367E8F5718C0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 354E92A972710C87D59F6C46C4085F81;
+			remoteGlobalIDString = 2A0068F464AF5A370BEFF6A4345585E4;
 			remoteInfo = NorthLayout;
 		};
 		D3BEA7DF24FC1045B7FE178022CD6285 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF9834BA45D67CD94BFEAF32BF644FB8;
+			remoteGlobalIDString = 1B118AB0159404BA956E1B5E63EF454C;
 			remoteInfo = Caerula;
 		};
 /* End PBXContainerItemProxy section */
@@ -59,19 +75,20 @@
 		10CB9E78E0E7471120BA9F390A07A75E /* Pods-Caerula_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Caerula_Example-dummy.m"; sourceTree = "<group>"; };
 		1165768966CF1CB21765182D64C992D0 /* Pods-Caerula_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Caerula_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		116F9DD014639A4536432A073D4ED81B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1203C0DA05299CA9BF78911DB3FDC5F8 /* NorthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NorthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		122F78D2B5E606299E4EE9D7E7E44BD3 /* Caerula-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Caerula-prefix.pch"; sourceTree = "<group>"; };
+		14DD7015A9ECB55DB06A72550EA352E8 /* Ikemen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ikemen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC510868A15A0D4DD29654DB1075BF7 /* Pods-Caerula_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Caerula_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2E344B26331BE6E4BCCB011B15821B7F /* NorthLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-prefix.pch"; sourceTree = "<group>"; };
 		30ABD9CD57E617B9295A077D2C5E7273 /* ※ikemen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-prefix.pch"; sourceTree = "<group>"; };
 		35EE41CE8EA015249E0BE7AD6EB0C0AC /* Pods-Caerula_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Caerula_Example-umbrella.h"; sourceTree = "<group>"; };
+		390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3DB064901C52413BAE5C2117C98B8941 /* Pods-Caerula_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Caerula_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4197870F25D718921A9424035DAEC588 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		519D74E31D11DA3C7B5718921E8946ED /* Pods-Caerula_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Caerula_Example-resources.sh"; sourceTree = "<group>"; };
 		52FBF8BD5B0862DC961F29BB41DDBDFF /* NorthLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NorthLayout.swift; path = Classes/NorthLayout.swift; sourceTree = "<group>"; };
 		59CF9A45F1CDC8491A64165BB159FC34 /* Pods-Caerula_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Caerula_Tests-dummy.m"; sourceTree = "<group>"; };
 		59DDD6306FD4638EE90F27A5A580A221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625AE9FA3368739C2EC3026A562C25A8 /* Pods_Caerula_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Caerula_Tests.framework; path = "Pods-Caerula_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		638FC09FB4335669CAE4B13A2EB84320 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		64CF1DCB8187A64815A87666B2CD40F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689640249FB3F1A687ED3BE67DED6729 /* Caerula.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Caerula.xcconfig; sourceTree = "<group>"; };
 		6A880994929091942C26C4D85A289102 /* Pods-Caerula_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Caerula_Tests.modulemap"; sourceTree = "<group>"; };
@@ -80,9 +97,10 @@
 		731367987CFF24C87D8DD51A5A7FD66D /* ※ikemen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "※ikemen.modulemap"; sourceTree = "<group>"; };
 		76166FA67615E1A7216939D60871EA93 /* NorthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NorthLayout.modulemap; sourceTree = "<group>"; };
 		79D7B16E14B067C6223128E8029F2D9B /* Pods-Caerula_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Caerula_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AF05CD114E9F930198A8DC94629EA42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		7FB5A4ED967D3FC2255428C1472AE5EC /* Pods_Caerula_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Caerula_Example.framework; path = "Pods-Caerula_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9071159FA096A29D77C1FFADF7E3AF9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9132D8DD2DEC8DE55C72EA98EF7F022D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		939C806D018E125963CBDD795619876B /* Pods-Caerula_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Caerula_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A88B81AB8A17B815992B80B8C5366696 /* Pods-Caerula_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Caerula_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -116,30 +134,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41FBC3F58948ACF94F1132F856556875 /* Frameworks */ = {
+		30350363E1AA2C802CEC89DC305AB703 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F613DC418F973A4E123491FF368404D2 /* CoreLocation.framework in Frameworks */,
-				F8E22F04CD21F36B1B03F040451A81FE /* Foundation.framework in Frameworks */,
-				5FCC076799F2C720DE3B089993AF9641 /* UIKit.framework in Frameworks */,
+				1A58C3142F2D64ACF6E63D64BFD52568 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		532F81016B0D310FB179E0D12418204A /* Frameworks */ = {
+		A888893BB2CA61AE3CBCE0D339E45A87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				098D633A44D70422F822ECCFD05DDA0D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7ED771DCA2DCC1686E514971E89BB23E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC45AA5C47B83626ECD356E078ADB2B0 /* Foundation.framework in Frameworks */,
-				60DE2DB0FC7E5FFDAA6DFA999E0D22C3 /* UIKit.framework in Frameworks */,
+				5583764AD5CF1CE7452F796EE4D8720F /* Foundation.framework in Frameworks */,
+				EE4A61078BE04902CE4D271BA71D5D73 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,17 +159,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6D5F4364A98C98E830BBA48C9FAFFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F352FCDEFAD9BC7B600E9512EA21E6 /* CoreLocation.framework in Frameworks */,
+				F6C24BB4653862132E5D2360E8A6504A /* Foundation.framework in Frameworks */,
+				B45893C6814A04334F25D119DE7A3464 /* Ikemen.framework in Frameworks */,
+				1E487FA9D56673FD1DA780AB4CF77D50 /* NorthLayout.framework in Frameworks */,
+				48117AEEADB1EF6E078DF63AAF42C6EE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				160AE6F76369074B91141CF90D53275B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1304FE1628E34B9D99F8EAA5677D2B87 /* NorthLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,16 +193,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		160AE6F76369074B91141CF90D53275B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4197870F25D718921A9424035DAEC588 /* CoreLocation.framework */,
-				8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */,
-				638FC09FB4335669CAE4B13A2EB84320 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		495A29A30F86876EA7F2AAA22367C96A /* ※ikemen */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +201,16 @@
 			);
 			name = "※ikemen";
 			path = "※ikemen";
+			sourceTree = "<group>";
+		};
+		72C2565564E96B103425B7656F16FDFB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AF05CD114E9F930198A8DC94629EA42 /* CoreLocation.framework */,
+				390BC6071EA4BD53E77E01903CA791CA /* Foundation.framework */,
+				9132D8DD2DEC8DE55C72EA98EF7F022D /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		77E43D15984A609FEE1A621E82C0AFE3 /* Products */ = {
@@ -228,7 +240,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E70EAA8ED16CFE6F64BB0A873E54A14C /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D3548A87E20A8412F3A9F48C664D2920 /* Frameworks */,
 				A568CC084B0D3AD6EFD044EFD59E749D /* Pods */,
 				77E43D15984A609FEE1A621E82C0AFE3 /* Products */,
 				8715954FB17B146AC986B82EFA34843B /* Targets Support Files */,
@@ -326,6 +338,16 @@
 			path = Caerula;
 			sourceTree = "<group>";
 		};
+		D3548A87E20A8412F3A9F48C664D2920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DD7015A9ECB55DB06A72550EA352E8 /* Ikemen.framework */,
+				1203C0DA05299CA9BF78911DB3FDC5F8 /* NorthLayout.framework */,
+				72C2565564E96B103425B7656F16FDFB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E70EAA8ED16CFE6F64BB0A873E54A14C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,27 +373,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		577B9B688DCD50F83040050960BC694F /* Headers */ = {
+		13A2511FD08ACA27FDA68B9423FAD138 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5043010E9FD3D5086C8128A5205043 /* Caerula-umbrella.h in Headers */,
+				36BAB2E47B85A0590063929B76B7AA33 /* ※ikemen-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6EE0F18457347DD7491E291114957E /* Headers */ = {
+		501A677DA98313D5E25A419318A48BB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AA18DF884C308F0C91FCACB4807782 /* ※ikemen-umbrella.h in Headers */,
+				F99D5A8121C9340349A8AE948E7D6087 /* NorthLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D19F8E3E2B3AE2EADDA3F47A13590D2 /* Headers */ = {
+		71D72D6C93E6DA084FF2AEC6415376BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44E6874FEA5973A20539093A201B500 /* NorthLayout-umbrella.h in Headers */,
+				A229C4A304FEDF765CBA34F163993530 /* Caerula-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +416,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1B118AB0159404BA956E1B5E63EF454C /* Caerula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4156F390170925A3C42E8E54DB82BE /* Build configuration list for PBXNativeTarget "Caerula" */;
+			buildPhases = (
+				89053ED2302508DB3E2AF9CC23C70B77 /* Sources */,
+				F6D5F4364A98C98E830BBA48C9FAFFB1 /* Frameworks */,
+				71D72D6C93E6DA084FF2AEC6415376BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B7A6684EB1EB0C2440BD3FE898824F /* PBXTargetDependency */,
+				4F6F959386FA128386FB675C6BE4C490 /* PBXTargetDependency */,
+			);
+			name = Caerula;
+			productName = Caerula;
+			productReference = EBA859F80C5A7C7D0B2F0FD15BD0307B /* Caerula.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2914B45ED7DD1EF96E9431AE188833FD /* Pods-Caerula_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15A13982F5726141B675402ED269B138 /* Build configuration list for PBXNativeTarget "Pods-Caerula_Example" */;
@@ -414,13 +455,13 @@
 			productReference = 7FB5A4ED967D3FC2255428C1472AE5EC /* Pods_Caerula_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		354E92A972710C87D59F6C46C4085F81 /* NorthLayout */ = {
+		2A0068F464AF5A370BEFF6A4345585E4 /* NorthLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5269A572880B84F4CCBCE970DB0C9826 /* Build configuration list for PBXNativeTarget "NorthLayout" */;
+			buildConfigurationList = 668148241C594F831E18D77913E86D2F /* Build configuration list for PBXNativeTarget "NorthLayout" */;
 			buildPhases = (
-				A72C60F7DF15D40EB65741F3A84EAAE5 /* Sources */,
-				7ED771DCA2DCC1686E514971E89BB23E /* Frameworks */,
-				8D19F8E3E2B3AE2EADDA3F47A13590D2 /* Headers */,
+				A818A67C2350387E19392AD848F24248 /* Sources */,
+				A888893BB2CA61AE3CBCE0D339E45A87 /* Frameworks */,
+				501A677DA98313D5E25A419318A48BB0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -448,13 +489,13 @@
 			productReference = 625AE9FA3368739C2EC3026A562C25A8 /* Pods_Caerula_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8F9380E86101CF375F0BA05340834A6B /* ※ikemen */ = {
+		E4F4B5B9E21256F8B6CC043D9455EAF0 /* ※ikemen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DC0639AF505F23AB5AE6E160291FE6B /* Build configuration list for PBXNativeTarget "※ikemen" */;
+			buildConfigurationList = A0C0ACDDE27E24C8816A728638C88DCB /* Build configuration list for PBXNativeTarget "※ikemen" */;
 			buildPhases = (
-				C3CA295CCD639995D7D27E31B3033FB9 /* Sources */,
-				532F81016B0D310FB179E0D12418204A /* Frameworks */,
-				7A6EE0F18457347DD7491E291114957E /* Headers */,
+				B5CF687591FC9AC09E510838484594D3 /* Sources */,
+				30350363E1AA2C802CEC89DC305AB703 /* Frameworks */,
+				13A2511FD08ACA27FDA68B9423FAD138 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -463,23 +504,6 @@
 			name = "※ikemen";
 			productName = "※ikemen";
 			productReference = F91C2C9076D44AF020FD40B647245CBF /* Ikemen.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AF9834BA45D67CD94BFEAF32BF644FB8 /* Caerula */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A096C6722C38C6289C314C516DC05427 /* Build configuration list for PBXNativeTarget "Caerula" */;
-			buildPhases = (
-				B7E8D38891FC0B08541E1D0707EC31F1 /* Sources */,
-				41FBC3F58948ACF94F1132F856556875 /* Frameworks */,
-				577B9B688DCD50F83040050960BC694F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Caerula;
-			productName = Caerula;
-			productReference = EBA859F80C5A7C7D0B2F0FD15BD0307B /* Caerula.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -503,11 +527,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF9834BA45D67CD94BFEAF32BF644FB8 /* Caerula */,
-				354E92A972710C87D59F6C46C4085F81 /* NorthLayout */,
+				1B118AB0159404BA956E1B5E63EF454C /* Caerula */,
+				2A0068F464AF5A370BEFF6A4345585E4 /* NorthLayout */,
 				2914B45ED7DD1EF96E9431AE188833FD /* Pods-Caerula_Example */,
 				5A64EB44FE4795DDF9AB527485CE90E9 /* Pods-Caerula_Tests */,
-				8F9380E86101CF375F0BA05340834A6B /* ※ikemen */,
+				E4F4B5B9E21256F8B6CC043D9455EAF0 /* ※ikemen */,
 			);
 		};
 /* End PBXProject section */
@@ -521,30 +545,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A72C60F7DF15D40EB65741F3A84EAAE5 /* Sources */ = {
+		89053ED2302508DB3E2AF9CC23C70B77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660097D57CB7331D6D0591AF643858DE /* NorthLayout-dummy.m in Sources */,
-				63794B7690D5C9A75D910BF544AE90C2 /* NorthLayout.swift in Sources */,
+				51802F0105F18F272984CF5AB061FC14 /* BeaconRadarView.swift in Sources */,
+				AF8B49D90B1A4E05C2AC02D5B32C898E /* Caerula-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7E8D38891FC0B08541E1D0707EC31F1 /* Sources */ = {
+		A818A67C2350387E19392AD848F24248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D115538951D87DEE949BAEBED6BF2CA3 /* BeaconRadarView.swift in Sources */,
-				8D966E05DD57B9238DDC391817CBA348 /* Caerula-dummy.m in Sources */,
+				3989715426F82AD1795B0C514A8CBA9A /* NorthLayout-dummy.m in Sources */,
+				F143202FF5B7AE59E33717DEF4276D1B /* NorthLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3CA295CCD639995D7D27E31B3033FB9 /* Sources */ = {
+		B5CF687591FC9AC09E510838484594D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D599FCEA42B5D9A9483182810552B545 /* ※ikemen-dummy.m in Sources */,
-				5C54B3DB6EE394A0B3BF232801EF102D /* ※ikemen.swift in Sources */,
+				8F7CB3A43D5B29D2BB3E82429D3C58B8 /* ※ikemen-dummy.m in Sources */,
+				5FE215F14C9193905613A41001CCF87D /* ※ikemen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,58 +586,37 @@
 		2C9C1625804110B312007975B20FD472 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NorthLayout;
-			target = 354E92A972710C87D59F6C46C4085F81 /* NorthLayout */;
+			target = 2A0068F464AF5A370BEFF6A4345585E4 /* NorthLayout */;
 			targetProxy = D2AEB5BA8561EFD0E22367E8F5718C0A /* PBXContainerItemProxy */;
+		};
+		4F6F959386FA128386FB675C6BE4C490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "※ikemen";
+			target = E4F4B5B9E21256F8B6CC043D9455EAF0 /* ※ikemen */;
+			targetProxy = 692FF841881CE61C9B1D2CFBE729DD55 /* PBXContainerItemProxy */;
+		};
+		87B7A6684EB1EB0C2440BD3FE898824F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NorthLayout;
+			target = 2A0068F464AF5A370BEFF6A4345585E4 /* NorthLayout */;
+			targetProxy = 2A62F5C5CC07199A6DB645ABC7EEE0AB /* PBXContainerItemProxy */;
 		};
 		B2AD66C0E241E40893A0F3F18A6DFE0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Caerula;
-			target = AF9834BA45D67CD94BFEAF32BF644FB8 /* Caerula */;
+			target = 1B118AB0159404BA956E1B5E63EF454C /* Caerula */;
 			targetProxy = D3BEA7DF24FC1045B7FE178022CD6285 /* PBXContainerItemProxy */;
 		};
 		C9EFC500CF167F11B59865E8582C5339 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "※ikemen";
-			target = 8F9380E86101CF375F0BA05340834A6B /* ※ikemen */;
+			target = E4F4B5B9E21256F8B6CC043D9455EAF0 /* ※ikemen */;
 			targetProxy = 8176DDB70A61C631EE6B50C694900812 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06F8D35E1114CB6FE5FFFFD7A4BA92CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 689640249FB3F1A687ED3BE67DED6729 /* Caerula.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Caerula/Caerula-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Caerula/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Caerula/Caerula.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Caerula;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		10DAE39FD0A448E72BF3A0AB027F95AC /* Release */ = {
+		1789EE437B758B84CBE24D872BA33B23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5894C2A6046868328CF2E8782106C90 /* NorthLayout.xcconfig */;
 			buildSettings = {
@@ -636,70 +639,6 @@
 				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = NorthLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1A32AC65288E62BD1773E4569C5F28D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 689640249FB3F1A687ED3BE67DED6729 /* Caerula.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Caerula/Caerula-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Caerula/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Caerula/Caerula.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Caerula;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5413668E320028862DE28923CFA801A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D148A807CA9A01C75FCEB923388BB9 /* ※ikemen.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Ikemen;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -752,6 +691,104 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		5F954C75DE4C7D96E80E67BBBCC1E4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689640249FB3F1A687ED3BE67DED6729 /* Caerula.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Caerula/Caerula-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Caerula/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Caerula/Caerula.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Caerula;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73C0854F8FA1CBD9EEFF3864FCCDA874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5894C2A6046868328CF2E8782106C90 /* NorthLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783B5516485BC140B43A717F50031E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D148A807CA9A01C75FCEB923388BB9 /* ※ikemen.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		79E43AED5AA7BF33141ACCE7DDADB20E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -859,6 +896,71 @@
 			};
 			name = Debug;
 		};
+		94C75C9D4E3B213B5B6D0F5B48020EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D148A807CA9A01C75FCEB923388BB9 /* ※ikemen.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2371F57F932345EE02D0AA4AEB5F98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689640249FB3F1A687ED3BE67DED6729 /* Caerula.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Caerula/Caerula-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Caerula/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Caerula/Caerula.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Caerula;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B20CF0499F8D36D6F3276301B0DF4619 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3DB064901C52413BAE5C2117C98B8941 /* Pods-Caerula_Tests.release.xcconfig */;
@@ -934,84 +1036,9 @@
 			};
 			name = Release;
 		};
-		DA822418D1894FB32422C538FEE2BE6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D148A807CA9A01C75FCEB923388BB9 /* ※ikemen.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Ikemen;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F6B9858BC0A800273970F2CF248A9113 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5894C2A6046868328CF2E8782106C90 /* NorthLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NorthLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NorthLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DC0639AF505F23AB5AE6E160291FE6B /* Build configuration list for PBXNativeTarget "※ikemen" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA822418D1894FB32422C538FEE2BE6F /* Debug */,
-				5413668E320028862DE28923CFA801A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		15A13982F5726141B675402ED269B138 /* Build configuration list for PBXNativeTarget "Pods-Caerula_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1039,20 +1066,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5269A572880B84F4CCBCE970DB0C9826 /* Build configuration list for PBXNativeTarget "NorthLayout" */ = {
+		5A4156F390170925A3C42E8E54DB82BE /* Build configuration list for PBXNativeTarget "Caerula" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6B9858BC0A800273970F2CF248A9113 /* Debug */,
-				10DAE39FD0A448E72BF3A0AB027F95AC /* Release */,
+				5F954C75DE4C7D96E80E67BBBCC1E4AD /* Debug */,
+				A2371F57F932345EE02D0AA4AEB5F98A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A096C6722C38C6289C314C516DC05427 /* Build configuration list for PBXNativeTarget "Caerula" */ = {
+		668148241C594F831E18D77913E86D2F /* Build configuration list for PBXNativeTarget "NorthLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06F8D35E1114CB6FE5FFFFD7A4BA92CD /* Debug */,
-				1A32AC65288E62BD1773E4569C5F28D5 /* Release */,
+				73C0854F8FA1CBD9EEFF3864FCCDA874 /* Debug */,
+				1789EE437B758B84CBE24D872BA33B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C0ACDDE27E24C8816A728638C88DCB /* Build configuration list for PBXNativeTarget "※ikemen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C75C9D4E3B213B5B6D0F5B48020EAF /* Debug */,
+				783B5516485BC140B43A717F50031E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

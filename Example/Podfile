@@ -7,7 +7,6 @@ target 'Caerula_Example' do
 
   target 'Caerula_Tests' do
     inherit! :search_paths
-
     
   end
 end

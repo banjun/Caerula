@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Caerula/Classes/**/*'
   s.frameworks = 'UIKit', 'CoreLocation'
+  s.dependency 'NorthLayout'
+  s.dependency '※ikemen'
 end
