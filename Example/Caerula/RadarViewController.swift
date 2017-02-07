@@ -26,6 +26,7 @@ class RadarViewController: UIViewController {
 
         title = "Radar"
         view.backgroundColor = .black
+        radarView.labelColor = .white
 
         let autolayout = northLayoutFormat([:], ["radar": radarView])
         autolayout("H:|[radar]|")

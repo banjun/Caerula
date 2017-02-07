@@ -5,7 +5,7 @@ import NorthLayout
 import Ikemen
 
 private let iosTealBlue = #colorLiteral(red: 0.4119389951, green: 0.8247622848, blue: 0.9853010774, alpha: 1)
-private let maxLabels = 20
+private let maxLabels = 20 // all labels are prepared on initialize. overflowed beacons are not displayed on labels.
 private let beaconTimeout: TimeInterval = 20 // disappear after this secs with invisible state
 
 public class BeaconRadarView: UIView, CLLocationManagerDelegate {
@@ -189,6 +189,11 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
         l.sizeToFit()
         self.addSubview(l)
         return l
+    }
+    /// customizable label color
+    public var labelColor: UIColor {
+        get {return preparedLabels.first!.textColor}
+        set {preparedLabels.forEach {$0.textColor = newValue}}
     }
 
     private func updateBeaconLabels() {
