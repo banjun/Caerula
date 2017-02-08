@@ -13,6 +13,10 @@ Scan iBeacon accessories and visualize in a view with UIKit dynamics animation.
 
 ![demo](misc/Caerula-demo.gif)
 
+illustration:
+
+<img src="misc/Caerula-dynamics.png" width="250">
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
