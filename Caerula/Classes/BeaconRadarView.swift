@@ -237,6 +237,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
             }
 
             func moveToDistance(_ distance: CGFloat) {
+                guard abs(behavior.length - distance) >= 1 else { return } // ignore slight changes caused by its precision
                 // NSLog("%@", "move \(b.minor): \(behavior.length) -> \(distance)")
                 // disable collision detection for the moving item (make flyable over other items)
                 self.collisionBehavior.removeItem(l)
