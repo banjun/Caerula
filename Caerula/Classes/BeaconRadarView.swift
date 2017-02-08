@@ -46,6 +46,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
         self.uuids = uuids
         self.regions = uuids.map {CLBeaconRegion(proximityUUID: $0, identifier: $0.uuidString)}
         super.init(frame: .zero)
+        self.clipsToBounds = true
         layout()
     }
 
