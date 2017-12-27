@@ -143,15 +143,33 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
 
     private let boundaryBehavior = UICollisionBehavior(items: []) ※ { b in
         // collision detection on view bounds is always enabled.
-        b.translatesReferenceBoundsIntoBoundary = true
         b.collisionMode = .boundaries
     }
 
     private let collisionBehavior = UICollisionBehavior(items: []) ※ { b in
         // collision detection on some items will be disabled on move.
         // separate view bounds detection to boundaryBehavior.
-        b.translatesReferenceBoundsIntoBoundary = true
         b.collisionMode = .everything
+    }
+
+    private func updateBoundary() {
+        let behaviors = [boundaryBehavior, collisionBehavior]
+        guard #available(iOS 11, *) else {
+            behaviors.forEach {$0.translatesReferenceBoundsIntoBoundary = true}
+            return
+        }
+        behaviors.forEach {$0.setTranslatesReferenceBoundsIntoBoundary(with: safeAreaInsets)}
+    }
+
+    @available(iOS 11.0, *)
+    public override func safeAreaInsetsDidChange() {
+        super.safeAreaInsetsDidChange()
+        updateBoundary()
+    }
+
+    private var layoutBounds: CGRect {
+        guard #available(iOS 11, *) else { return bounds }
+        return UIEdgeInsetsInsetRect(bounds, safeAreaInsets)
     }
 
     private func layout() {
@@ -161,13 +179,14 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
                                             "pulse": pulse])
         autolayout("H:[antenna(==rr)]")
         autolayout("H:[pulse(==rr)]")
-        autolayout("V:[antenna(==rr)]-rr-|")
-        autolayout("V:[pulse(==rr)]-rr-|")
+        autolayout("V:[antenna(==rr)]-r-||")
+        autolayout("V:[pulse(==rr)]-r-||")
 
         addConstraint(NSLayoutConstraint(item: antenna, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
         addConstraint(NSLayoutConstraint(item: pulse, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
 
         bringSubview(toFront: antenna)
+        updateBoundary()
     }
 
     private func startPulseAnimation() {
@@ -215,7 +234,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
                 guard let usableLabel = (self.preparedLabels.first {l in !self.visibleBeacons.contains {$0.label == l}}) else { continue }
                 usableLabel.text = self.displayNameForBeacon(b) ?? self.defaultDisplayNameForBeacon(b)
                 usableLabel.sizeToFit() // for dynamicAnimator
-                usableLabel.center.x = CGFloat(arc4random() % 100) * self.bounds.width / 100
+                usableLabel.center.x = CGFloat(arc4random() % 100) * self.layoutBounds.width / 100
                 self.updateDynamicItemSizes()
                 self.visibleBeacons[i].label = usableLabel
             }
@@ -230,10 +249,10 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
             self.visibleBeacons[i].behavior = behavior
             behavior.anchorPoint = self.antenna.center
 
-            if !bounds.contains(l.center) {
+            if !layoutBounds.contains(l.center) {
                 // re-position: out-of-bounds may be caused by screen orientation change
-                l.center.x = CGFloat(arc4random() % 100) * bounds.width / 100
-                l.center.y = bounds.height / 2
+                l.center.x = CGFloat(arc4random() % 100) * layoutBounds.width / 100
+                l.center.y = layoutBounds.height / 2
                 dynamicAnimator.updateItem(usingCurrentState: l)
             }
 
@@ -259,13 +278,13 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
             switch b.proximity {
             case .immediate:
                 changeAlpha(1)
-                moveToDistance(self.bounds.height * 0.2)
+                moveToDistance(self.layoutBounds.height * 0.2)
             case .near:
                 changeAlpha(1)
-                moveToDistance(self.bounds.height * 0.4)
+                moveToDistance(self.layoutBounds.height * 0.4)
             case .far:
                 changeAlpha(1)
-                moveToDistance(self.bounds.height * 0.8)
+                moveToDistance(self.layoutBounds.height * 0.8)
             case .unknown:
                 changeAlpha(0.5)
             }

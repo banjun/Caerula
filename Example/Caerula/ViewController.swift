@@ -31,13 +31,13 @@ class ViewController: UIViewController {
         title = "Caerula"
         view.backgroundColor = .white
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Radar", style: .plain, target: self, action: #selector(showRadar))
-        let autolayout = northLayoutFormat(["p": 8], [
+        let autolayout = northLayoutFormat([:], [
             "uuid1": uuid1Field,
             "uuid2": uuid2Field,
             ])
-        autolayout("H:|-p-[uuid1]-p-|")
-        autolayout("H:|-p-[uuid2]-p-|")
-        autolayout("V:|-p-[uuid1]-[uuid2]")
+        autolayout("H:||[uuid1]||")
+        autolayout("H:||[uuid2]||")
+        autolayout("V:||-[uuid1]-[uuid2]")
     }
 
     @objc private func showRadar() {
