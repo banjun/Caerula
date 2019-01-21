@@ -237,6 +237,10 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
                 usableLabel.center.x = CGFloat(arc4random() % 100) * self.layoutBounds.width / 100
                 self.updateDynamicItemSizes()
                 self.visibleBeacons[i].label = usableLabel
+            } else {
+                visibleBeacons[i].label!.text = displayNameForBeacon(b) ?? defaultDisplayNameForBeacon(b)
+                visibleBeacons[i].label!.sizeToFit() // for dynamicAnimator
+                self.updateDynamicItemSizes()
             }
             guard let l = self.visibleBeacons[i].label else { continue }
 

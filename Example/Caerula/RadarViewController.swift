@@ -9,10 +9,15 @@ class RadarViewController: UIViewController {
         self.radarView = BeaconRadarView(uuids: uuids)
         super.init(nibName: nil, bundle: nil)
         self.radarView.displayNameForBeacon = { b in
+            let n: Double = 2.0
+            let tx1m: Double = -59 // assume 0xc5 in the iBeacon payload
+            let rssi = Double(b.rssi)
+            let m: Double = pow(10.0, (tx1m - rssi) / (10.0 * n))
+
             switch b.minor {
-            case 1: return "🍎Apple"
-            case 20: return "🍓Strawberry"
-            default: return "🔹Other"
+            case 1: return "🍎Apple" + String(b.rssi)
+            case 15: return "🍓Strawberry" + String(b.rssi)
+            default: return "🔹[\(b.major),\(b.minor)]\(String(format: "%1.2fm±%1.2f", m, b.accuracy))"
             }
         }
         self.radarView.didDetectBeacon = { b in
