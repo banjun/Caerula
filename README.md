@@ -4,8 +4,7 @@ Beacon radar view for UIKit
 
 Scan iBeacon accessories and visualize in a view with UIKit dynamics animation.
 
-[![CI Status](http://img.shields.io/travis/banjun/Caerula.svg?style=flat)](https://travis-ci.org/banjun/Caerula)
-[![Version](https://img.shields.io/cocoapods/v/Caerula.svg?style=flat)](http://cocoapods.org/pods/Caerula)
+![CI](https://github.com/banjun/Caerula/workflows/CI/badge.svg)[![Version](https://img.shields.io/cocoapods/v/Caerula.svg?style=flat)](http://cocoapods.org/pods/Caerula)
 [![License](https://img.shields.io/cocoapods/l/Caerula.svg?style=flat)](http://cocoapods.org/pods/Caerula)
 [![Platform](https://img.shields.io/cocoapods/p/Caerula.svg?style=flat)](http://cocoapods.org/pods/Caerula)
 
