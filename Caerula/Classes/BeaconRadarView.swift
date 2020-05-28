@@ -82,6 +82,8 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
             startPulseAnimation()
         case .notDetermined, .restricted, .denied:
             break
+        @unknown default:
+            break
         }
     }
 
@@ -93,7 +95,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
         let now = Date()
 
         beacons.forEach { b in
-            if let i = (visibleBeacons.index {$0.beacon.proximityUUID == b.proximityUUID && $0.beacon.major == b.major && $0.beacon.minor == b.minor}) {
+            if let i = (visibleBeacons.firstIndex {$0.beacon.proximityUUID == b.proximityUUID && $0.beacon.major == b.major && $0.beacon.minor == b.minor}) {
                 if visibleBeacons[i].beacon.proximity != b.proximity {
                     didChangeBeaconRange?(b)
                 }
@@ -169,7 +171,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
 
     private var layoutBounds: CGRect {
         guard #available(iOS 11, *) else { return bounds }
-        return UIEdgeInsetsInsetRect(bounds, safeAreaInsets)
+        return bounds.inset(by: safeAreaInsets)
     }
 
     private func layout() {
@@ -185,7 +187,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
         addConstraint(NSLayoutConstraint(item: antenna, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
         addConstraint(NSLayoutConstraint(item: pulse, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
 
-        bringSubview(toFront: antenna)
+        bringSubviewToFront(antenna)
         updateBoundary()
     }
 
@@ -201,7 +203,7 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
                     a.toValue = 0
                 }]
             g.duration = 2
-            g.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+            g.timingFunction = CAMediaTimingFunction(name: .easeOut)
             g.repeatCount = .greatestFiniteMagnitude
             }, forKey: "pulse")
     }
@@ -290,6 +292,8 @@ public class BeaconRadarView: UIView, CLLocationManagerDelegate {
                 changeAlpha(1)
                 moveToDistance(self.layoutBounds.height * 0.8)
             case .unknown:
+                fallthrough
+            @unknown default:
                 changeAlpha(0.5)
             }
         }
