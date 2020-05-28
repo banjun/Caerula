@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Caerula'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Beacon radar view for UIKit'
   s.description      = 'Scan iBeacon accessories and visualize in a view with UIKit dynamics animation.'
   s.homepage         = 'https://github.com/banjun/Caerula'
