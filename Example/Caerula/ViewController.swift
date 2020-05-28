@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     }
 
     @objc private func showRadar() {
-        let uuids = [uuid1Field, uuid2Field].flatMap {$0.text}.flatMap {UUID(uuidString: $0)}
+        let uuids = [uuid1Field, uuid2Field].compactMap {$0.text}.compactMap {UUID(uuidString: $0)}
         func showVC() {
             show(RadarViewController(uuids: uuids), sender: nil)
         }

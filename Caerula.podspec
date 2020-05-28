@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/banjun/Caerula.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/banjun'
   s.ios.deployment_target = '9.0'
+  s.swift_versions = ['5.0']
   s.source_files = 'Caerula/Classes/**/*'
   s.frameworks = 'UIKit', 'CoreLocation'
   s.dependency 'NorthLayout', '~> 5.0'
